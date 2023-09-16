@@ -21,11 +21,11 @@ export const Detail = () => {
   return (
     <div className='details'>
       <div>
-        <h1>+Información del dentista: {dentist.id} </h1>
+        <h1>Información del dentista: {dentist.id} </h1>
         <h2>Nombre: {dentist.name}</h2>
         <h3>Email: {dentist.email}</h3>
         <h3>Web: {dentist.website}</h3>
-        <button onClick={() => navigate(-1)} style={{backgroundColor: theme.addBtnFavBg, color: theme.font}}>Back</button>
+        <button onClick={() => navigate(-1)} style={{backgroundColor: theme.addBtnFavBg, color: theme.font}}> Volver atrás </button>
       </div>
     </div>
   )

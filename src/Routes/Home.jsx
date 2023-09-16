@@ -13,7 +13,6 @@ export const Home = () => {
     <main className="home" >
       <h1 className='home-title'>DH Odontología</h1>
       <div className='card-grid'>
-        {/* Aqui deberias renderizar las cards */}
         {
           loading
             ? <Loader />
