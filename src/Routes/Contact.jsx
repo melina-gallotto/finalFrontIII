@@ -10,7 +10,7 @@ export const Contact = () => {
   return (
     <div className='contact'>
 
-      <div className='form-div' style={{backgroundColor: theme.formBg, boxShadow: theme.cardShadow}}>
+      <div className='form-div' style={{backgroundColor: theme.formBackground}}>
         <h2>Contactanos</h2>
         <p>En breve te enviaremos más información</p>
         <Form />

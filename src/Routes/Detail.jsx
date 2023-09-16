@@ -20,7 +20,7 @@ export const Detail = () => {
 
   return (
     <div className='details'>
-      <div style={{boxShadow: theme.cardShadow, backgroundColor: theme.cardBg}}>
+      <div>
         <h1>+Información del dentista: {dentist.id} </h1>
         <h2>Nombre: {dentist.name}</h2>
         <h3>Email: {dentist.email}</h3>

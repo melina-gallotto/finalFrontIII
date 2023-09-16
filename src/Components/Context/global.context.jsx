@@ -32,7 +32,7 @@ export const themes = {
     font: "white",
     background: "#282D3C",
     navBackground: "black",
-    footerBackground: "e5e7eb",
+    footerBackground: "grey",
     formBackground: ""
   }
 }
